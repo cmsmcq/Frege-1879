@@ -1,0 +1,11 @@
+we have:
+          (8 [replacing (d with c)] =)
+          yes a if c if b if (a if b if c),
+          from which via (5
+          [replacing (a with a if c if b)
+          (b with a if b if c)
+          (c with d)]):
+          we infer:
+          |p 37|
+          yes a if c if b if d
+          if (a if b if c if d) (=12).

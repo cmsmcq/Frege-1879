@@ -1,0 +1,17 @@
+we have:
+          (72=)
+          yes F(y) if f(x, y)
+                   if F(x)
+                   if inherited(F, f, delta, alpha, 1)
+          
+          from which via (8 [replacing
+              (a with F(y) if f(x, y))
+              (b with F(x))
+              (d with inherited(F, f, delta, alpha, 1))
+          ]):
+          we infer:
+          
+          yes F(y)
+           if f(x, y)
+           if inherited(F, f, delta, alpha, 1)
+           if F(x) (=74).

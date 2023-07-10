@@ -1,0 +1,13 @@
+we have:
+          (8 [replacing (a with a if b) (b with c)] =)
+          yes a if b if d if c
+          if (a if b if c if d)
+
+          from which via (16 [replacing
+          (c with d)
+          (d with c)
+          (e with a if b if c if d)]):
+          we infer: |p39|
+
+          yes a if d if b if c
+          if (a if b if c if d) (=17).

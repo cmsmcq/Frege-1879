@@ -1,0 +1,28 @@
+we have:
+          (100=)
+          yes (z equiv x)
+          if not follows-in-seq(x, z, f, gamma, beta)
+          if follows-or-same(x, z, f, gamma, beta)
+          
+          from which via (19 [replacing
+              (b with (z equiv x))
+              (c with not follows-in-seq(x, z, f, gamma, beta))
+              (d with follows-or-same(x, z, f, gamma, beta))
+              (a with x equiv z)
+          ]):
+          we infer:
+          
+          yes (x equiv z)
+          if not follows-in-seq(x, z, f, gamma, beta)
+          if follows-or-same(x, z, f, gamma, beta)
+          if ((x equiv z) if (z equiv x)) (=103),
+          
+          from which via (55 [replacing
+              (d with x)
+              (c with z)
+          ])::
+          we infer:
+          
+          yes (x equiv z)
+          if not follows-in-seq(x, z, f, gamma, beta)
+          if follows-or-same(x, z, f, gamma, beta) (=104).

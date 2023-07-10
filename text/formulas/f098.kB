@@ -1,0 +1,16 @@
+we have:
+          (97=)
+          yes inherited(follows-in-seq(x, alpha, f, gamma, beta),
+                        f, 
+                        delta, alpha, 1)          
+          
+          from which via (84 [replacing
+              (F(Gamma) with follows-in-seq(x, Gamma, f, gamma, beta))
+              (x with y)
+              (y with z)
+          ]):
+          we infer:
+          
+          yes follows-in-seq(x, z, f, gamma, beta)
+              if follows-in-seq(y, z, f, gamma, beta)
+              if follows-in-seq(x, y, f, gamma, beta) (=98).

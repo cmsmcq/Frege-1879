@@ -1,0 +1,30 @@
+we have:
+          (54=) yes c EQUIV c,
+          
+          from which via (53 [replacing
+              (f(Alpha) with Alpha equiv c)
+          ]):
+          we infer:
+          
+          yes d EQUIV c if c EQUIV d (=55),
+
+          from which via (9 [replacing
+              (b with d equiv c)
+              (c with c equiv d)
+              (a with f(c) if f(d))
+          ]):
+          we infer:
+          
+          yes f(c) if f(d) 
+                   if (c equiv d) 
+                   if (f(c) if f(c) if (d equiv c)) (=56),
+
+          from which via (52 [replacing
+              (d with c)
+              (c with d)
+          ])::
+          we infer: |p51|
+          
+          yes f(c) if f(d) 
+                   if (c equiv d) 
+                   (=57).

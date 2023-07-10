@@ -1,0 +1,23 @@
+we have: (36=)
+          yes b if not a if a,
+          
+          from which via (8 [replacing
+          (a with b)
+          (b with not a)
+          (d with a)]): we infer:
+
+          yes b if a if not a (=38),
+
+          from which via (2 [replacing
+          (a with b)
+          (b with a)
+          (c with not a)]): we infer:
+
+          yes b if not a if a if not a (=39),
+
+          from which via (35 [replacing
+          (a with b)
+          (b with a)
+          (c with a if not a)]): we infer:
+
+          yes a if (a if not a) if not b (=40).

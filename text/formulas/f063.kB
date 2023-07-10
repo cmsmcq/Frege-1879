@@ -1,0 +1,15 @@
+we have:
+          (62=)
+          yes f(x) if all fa satisfy (f(fa) if g(fa))
+                   if g(x)
+          
+          from which via (24 [replacing
+              (a with f(x) if all fa satisfy (f(fa) if g(fa)))
+              (c with g(x))
+              (b with m)
+          ]):
+          we infer:
+          
+          yes f(x) if all fa satisfy (f(fa) if g(fa))
+                   if m
+                   if g(x) (=63).

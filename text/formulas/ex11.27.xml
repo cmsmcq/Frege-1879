@@ -1,0 +1,1 @@
+<formula><yes><conditional><consequent><conditional><consequent><univ bound-var="𝔞"><leaf><fa><functor><var>Φ</var></functor><arg><var>a</var></arg></fa></leaf></univ></consequent><antecedent><leaf><var>Α</var></leaf></antecedent></conditional></consequent><antecedent><leaf><var>Β</var></leaf></antecedent></conditional></yes></formula>

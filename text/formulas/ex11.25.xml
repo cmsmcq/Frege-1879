@@ -1,0 +1,1 @@
+<formula><yes><conditional><consequent><leaf><fa><functor><var>Φ</var></functor><arg><var>a</var></arg></fa></leaf></consequent><antecedent><not><conditional><consequent><not><leaf><var>Α</var></leaf></not></consequent><antecedent><leaf><var>Β</var></leaf></antecedent></conditional></not></antecedent></conditional></yes></formula>

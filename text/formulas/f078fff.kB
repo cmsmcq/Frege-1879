@@ -1,0 +1,60 @@
+we have:
+          (77=)
+          yes F(y)
+              if all fa satisfy (F(fa) if f(x, fa))
+              if inherited(F, f, delta, alpha, 1)
+              if follows-in-seq(x, y, f, gamma, beta)
+          
+          from which via (17 [replacing
+              (a with F(y))
+              (b with all fa satisfy (F(fa) if f(x, fa)))
+              (c with inherited(F, f, delta, alpha, 1))
+              (d with follows-in-seq(x, y, f, gamma, beta))
+          ]):
+          we infer: |p63|
+          
+          yes F(y)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if all fa satisfy
+                 (F(fa) if f(x, fa))
+              if inherited(F, f, delta, alpha, 1) (=78),
+
+          from which via (2 [replacing
+              (a with F(y) if follows-in-seq(x, y, f, gamma, beta))
+              (b with all fa satisfy (F(fa) if f(x, fa)))
+              (c with inherited(F, f, delta, alpha, 1))]):
+          we infer: 
+          
+          yes F(y)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if inherited(F, f, delta, alpha, 1)
+              if all fa satisfy
+                 (F(fa) if f(x, fa))
+              if inherited(F, f, delta, alpha, 1) (=79),
+
+          from which via (5 [replacing
+              (a with F(y) 
+                      if follows-in-seq(x, y, f, gamma, beta) 
+                      if inherited(F, f, delta, alpha, 1))
+              (b with all fa satisfy (F(fa) if f(x, fa))
+                      if inherited(F, f, delta, alpha, 1))
+              (c with F(x))
+          ]):
+          we infer: 
+          
+          yes F(y)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if inherited(F, f, delta, alpha, 1)
+              if F(x)
+              if (all fa satisfy (F(fa) if f(x, fa))
+                 if inherited(F, f, delta, alpha, 1)
+                 if F(x)) (=80),
+
+          from which via (74 [replacing
+              (y with a)
+          ])::
+          we infer: 
+          
+          yes F(y) if follows-in-seq(x, y, f, gamma, delta)
+                   if inherited(F, f, delta, alpha, 1)
+                   if F(x) (=81).

@@ -1,0 +1,45 @@
+we have:
+          (69 =)
+          (all fd satisfy
+              ((all fa satisfy 
+                    (F(fa) if f(fd, fa)))
+               if
+               F(fd)))
+          EQUIV
+          inherited(F, f, delta, alpha, 1)
+          
+          from which via (68 [replacing
+              (f(Gamma) with all fa satisfy (F(fa) if f(Gamma, fa)) if F(Gamma))
+              (b with inherited(F, f, delta, alpha, 1))
+              (c with x)
+          ]):
+          we infer:
+          
+          yes all fa satisfy (F(fa) if f(x, fa))
+              if F(x)
+              if inherited(F, f, delta, alpha, 1) (=70),
+
+          from which via (19 [replacing
+              (b with all fa satisfy (F(fa) if f(x, fa)))
+              (c with F(x))
+              (d with inherited(F, f, delta, alpha, 1))
+              (a with F(y) if f(x, y))
+          ]):
+          we infer: |p59|
+
+          yes F(y) if f(x, y)
+                   if F(x)
+                   if inherited(F, f, delta, alpha, 1)
+                   if (F(y) if f(x, y))
+                   if all fa satisfy (F(fa) if f(x, fa)) (=71),
+
+          from which via (58 [replacing
+              (f(Gamma) with F(Gamma) if f(x, Gamma))
+              (c with y)
+          ])::
+          we infer:
+
+          yes F(y)
+           if f(x, y)
+           if F(x)
+           if inherited(F, f, delta, alpha, 1) (=72).

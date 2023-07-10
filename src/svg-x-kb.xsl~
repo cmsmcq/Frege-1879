@@ -1,0 +1,75 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                >
+  
+  <!-- svg-x-kb.xsl:  make SVG from kB (keyboardable Frege) description
+       of a formula -->
+
+  <!-- Revisions:
+       2023-03-28 : CMSMcQ : made this stylesheet
+  -->
+
+  <!-- The input document is either a formula or an inference.  (This is
+       subject to adjustment.)  Either way, we set up an SVG document
+       which defines a lot of svg:g elements which refer to each other
+       and then uses the top one.  -->
+
+  <!-- To do and questions:
+
+       Q. Simplify by assigning identifiers in a preliminary pass?
+
+  -->
+
+  <!--****************************************************************
+      * 0 Preliminaries
+      ****************************************************************
+      *-->
+  <!-- lineheight:  baseline to baseline, body size + leading -->
+  <xsl:variable name="lineheight" as="xs:integer" select="12"/>
+
+  <!-- bodysize:  point size of font, descender to ascender -->
+  <xsl:variable name="bodysize" as="xs:integer" select="10"/>
+
+  <!-- opwidth:  distance op to op -->
+  <xsl:variable name="opwidth" as="xs:integer" select="4"/>
+
+  <!-- padding: ca 20% of bodysize -->
+  <xsl:variable name="padding" as="positive_integer" select="2"/>
+
+  <!-- sink: ca 30% of bodysize -->
+  <xsl:variable name="sink" as="positive_integer" select="3"/>
+
+  <!-- strokewidth5, -->
+  <xsl:variable name="strokewidth" as="number" select="0.5"/>
+
+
+  <!-- affstroke5 -->
+  <xsl:variable name="affstroke" as="number" select="0.5"/>
+
+  
+  <!-- 
+  <xsl:variable name="bodysize" as="xs:integer" select="10"/>
+           
+           
+
+  <!--****************************************************************
+      * 1 Document-level processing
+      ****************************************************************
+      *-->
+  
+
+
+  <!--****************************************************************
+      * 2 Compound constructs
+      ****************************************************************
+      *-->
+
+
+  <!--****************************************************************
+      * 3 Bottom-level constructs
+      ****************************************************************
+      *-->
+
+</xsl:stylesheet>

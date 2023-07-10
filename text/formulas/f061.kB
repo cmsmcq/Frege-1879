@@ -1,0 +1,12 @@
+we have:
+          (58=)
+          yes f(c) if all fa satisfy f(fa),
+          
+          from which via (9 [replacing
+              (b with f(c))
+              (c with all fa satisfy f(fa))
+          ]):
+          we infer:
+          
+          yes a if all fa satisfy f(fa)
+              if (a if f(c)) (=61).

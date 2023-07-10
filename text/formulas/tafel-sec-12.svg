@@ -1,0 +1,94 @@
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="450"
+         height="450"
+         viewBox="0,0 230,235">
+  <svg:desc>SVG rendering of the table of opposites at the end of
+  section 12 of Frege's Begriffsschrift.
+  
+  SVG written by hand. 2023-04-23</svg:desc>
+  <svg:style type="text/css">
+        line, path { 
+        stroke: black;
+        stroke-width: 0.5;
+        }
+        path { 
+        fill: none;
+        }
+        text { 
+        font-size: 10px;
+        }
+        .verticaltext {
+        writing-mode: tb;
+        glyph-orientation-vertical: 0;
+        }
+  </svg:style>
+  <svg:defs>
+    <svg:g id="ul">
+      <svg:title>The upper-left formula</svg:title>
+      <svg:image xlink:href="tafel-ul.svg" transform="translate(0,-10)"
+                 height="30" width="72"/>
+    </svg:g>
+    <svg:g id="ur">
+      <svg:title>The upper-right formula</svg:title>
+      <svg:image xlink:href="tafel-ur.svg" transform="translate(0,-10)"
+                 height="30" width="72"/>
+    </svg:g>
+    <svg:g id="ll">
+      <svg:title>The lower-left formula</svg:title>
+      <svg:image xlink:href="tafel-ll.svg" transform="translate(0,0)"
+                 height="30" width="72"/>
+    </svg:g>
+    <svg:g id="lr">
+      <svg:title>The lower-right formula</svg:title>
+      <svg:image xlink:href="tafel-lr.svg" transform="translate(0,0)"
+                 height="30" width="72"/>
+    </svg:g>
+
+    <svg:g id="conträr">
+      <svg:text>conträr</svg:text>      
+    </svg:g>
+    <svg:g id="subconträr">
+      <svg:text>subconträr</svg:text>      
+    </svg:g>
+
+    <svg:g id="subaltern">
+      <svg:text class="verticaltext" rotate="-90" y="0, 15, 30, 45, 60, 75, 90, 105, 120, 135"
+                >subaltern</svg:text>
+    </svg:g>
+    
+    <svg:g id="contradictorisch">
+      <svg:title>The text 'contradictorisch'</svg:title>
+        <svg:text>
+          <svg:tspan>contra</svg:tspan>
+          <svg:tspan dx="30">dictorisch</svg:tspan>
+        </svg:text>
+    </svg:g>
+    
+    <svg:g id="tafel">
+      <svg:title>The table</svg:title>
+      <!--
+      <svg:line x1="0" y1="0" x2="225" y2="0"/>
+      <svg:line x1="0" y1="100" x2="225" y2="100"/>
+      <svg:line x1="0" y1="215" x2="225" y2="215" style="stroke: red;"/>
+      -->
+      
+      <svg:use xlink:href="#ul" transform="translate(0,0)"/>
+      <svg:use xlink:href="#ur" transform="translate(150,0)"/>
+      <svg:use xlink:href="#ll" transform="translate(0,165)"/>
+      <svg:use xlink:href="#lr" transform="translate(150, 165)"/>
+      
+      <svg:use xlink:href="#conträr" transform="translate(95, 10)"/>
+      <svg:use xlink:href="#subconträr" transform="translate(88, 185)"/>
+
+      <svg:use xlink:href="#subaltern" transform="translate(53, 35)"/>
+      <svg:use xlink:href="#subaltern" transform="translate(203, 35)"/>
+
+      <svg:use xlink:href="#contradictorisch" transform="translate(95, 50) rotate(50)"/>
+      <svg:use xlink:href="#contradictorisch" transform="translate(100, 135) rotate(-50)"/>
+    </svg:g>
+  </svg:defs>
+  <svg:g>
+    <svg:use xlink:href="#tafel" transform="translate(5, 10)"/>
+  </svg:g>
+</svg:svg>

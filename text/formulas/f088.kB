@@ -1,0 +1,22 @@
+we have:
+          (87=)
+          yes F(z)
+              if f(y, z)
+              if inherited(F, f, delta, alpha, 1)
+              if all fa satisfy (F(fa) if f(x, fa))
+              if follows-in-seq(x, y, f, gamma, beta)
+          
+          from which via (15 [replacing
+              (a with F(z))
+              (b with f(y, z))
+              (c with inherited(F, f, delta, alpha, 1))
+              (d with all fa satisfy (F(fa) if f(x, fa)))
+              (e with follows-in-seq(x, y, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes F(z)
+              if inherited(F, f, delta, alpha, 1)
+              if all fa satisfy (F(fa) if f(x, fa))
+              if follows-in-seq(x, y, f, gamma, beta)
+              if f(y, z) (=88).

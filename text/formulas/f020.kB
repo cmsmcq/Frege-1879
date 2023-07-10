@@ -1,0 +1,14 @@
+we have:
+          (19 =) yes a if c if d
+                       if (a if b)
+                       if (b if c if d)
+          from which via
+          (18 [replacing (a with a if c if d)
+                         (b with a if b)
+                         (c with b if c if d)
+                         (d with e)]):
+          we infer:
+
+          yes a if c if d  if e
+          if (a if b)
+          if (b if c if d if e) (=20).

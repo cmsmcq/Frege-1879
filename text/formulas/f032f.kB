@@ -1,0 +1,16 @@
+we have:  (31 [replacing (a with b)] =)
+          yes b if not not b
+          
+          from which via (7 [replacing
+          (a with b)
+          (b with not not b)
+          (c with not a)
+          (d with a if not b)]): we infer:
+
+          yes b if not a if (a if not b)
+          if ((not not b if not a) if (a if not b)) (=32),
+
+          from which via (28
+          [replacing (b with not b)]):: we infer:
+
+          yes b if not a if (a if not b) (=33).

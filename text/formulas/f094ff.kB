@@ -1,0 +1,51 @@
+we have:
+          (93 [replacing
+              (y with z)
+          ] =)
+          yes follows-in-seq(x, z, f, gamma, beta)
+              if all FF satisfy
+              (FF(z)
+              if inherited(FF, f, delta, alpha, 1)
+              if all fa satisfy (FF(fa) if f(x, fa))),
+
+          from which via (7 [replacing
+              (a with follows-in-seq(x, z, f, gamma, beta))
+              (b with all FF satisfy 
+                          (FF(z)
+                          if inherited(FF, f, delta, alpha, 1)
+                          if all fa satisfy (FF(fa) if f(x, fa))))
+              (c with follows-in-seq(x, y, f, gamma, beta))
+              (d with f(y, z))
+          ]):
+          we infer:
+          
+          yes follows-in-seq(x, z, f, gamma, beta)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if f(y, z)
+              if all FF satisfy
+                     (FF(z) 
+                     if inherited(FF, f, delta, alpha, 1)
+                     if all fa satisfy
+                     (FF(fa) if f(x, fa)))
+              if follows-in-seq(x, y, f, gamma, beta)
+              if f(y, z) (=94),
+          
+          from which via (88 [replacing
+              (F with FF)
+          ]):
+          we infer:
+          
+          yes follows-in-seq(x, z, f, gamma, beta)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if f(y, z) (=95),
+          
+          from which via (8 [replacing
+              (a with follows-in-seq(x, z, f, gamma, beta))
+              (b with follows-in-seq(x, y, f, gamma, beta))
+              (d with f(y, z))
+          ]):
+          we infer:|p71|
+          
+          yes follows-in-seq(x, z, f, gamma, beta)
+          if f(y, z)
+          if follows-in-seq(x, y, f, gamma, beta) (=96).

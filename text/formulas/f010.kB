@@ -1,0 +1,15 @@
+we have: 
+          (8 [replacing
+          (a with b)
+          (b with e)] =)
+          yes b if d if e if (b if e if c),
+          
+          from which via
+          (9 [replacing
+          (b with b if d if e)
+          (c with b if e if d)]):
+          we infer:
+          
+          yes a
+              if (b if e if d) 
+              if (a if (b if d if e)) (= 10).

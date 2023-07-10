@@ -1,0 +1,47 @@
+we have:
+          (131=)
+          yes inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                          if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                          f, 
+                          delta, alpha, 1)
+              if unambiguous(f, delta, epsilon),
+          
+          from which via (9 [replacing
+              (b with inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                          if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                          f, 
+                          delta, alpha, 1))
+              (c with unambiguous(f, delta, epsilon))
+              (a with follows-or-same(m, y, f, gamma, beta)
+                      if not follows-in-seq(y, m, f, gamma, beta)
+                      if follows-in-seq(x, y, f, gamma, beta)
+                      if follows-in-seq(x, m, f, gamma, beta)
+              )
+          ]):
+          we infer: |p86|
+          
+          yes follows-or-same(m, y, f, gamma, beta)
+          if not follows-in-seq(y, m, f, gamma, beta)
+          if follows-in-seq(x, y, f, gamma, beta)
+          if follows-in-seq(x, m, f, gamma, beta)
+          if unambiguous(f, delta, epsilon)
+          if (follows-or-same(m, y, f, gamma, beta)
+              if not follows-in-seq(y, m, f, gamma, beta)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if follows-in-seq(x, m, f, gamma, beta)
+              if inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                          if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                          f, 
+                          delta, alpha, 1)) (=132),
+          
+          from which via (83 [replacing
+              (g(Gamma) with follows-or-same(m, Gamma, f, gamma, beta))
+              (h(Gamma) with follows-in-seq(Gamma, m, f, gamma, beta))
+          ]):
+          we infer: 
+          
+          yes follows-or-same(m, y, f, gamma, beta)
+          if not follows-in-seq(y, m, f, gamma, beta)
+          if follows-in-seq(x, y, f, gamma, beta)
+          if follows-in-seq(x, m, f, gamma, beta)
+          if unambiguous(f, delta, epsilon) (=133).

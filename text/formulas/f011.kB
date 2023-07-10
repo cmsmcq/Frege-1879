@@ -1,0 +1,14 @@
+we have:
+          (1 [replacing
+              (a with b)
+              (b with c)
+          ] =)
+          b if c if b,
+          
+          from which via (9
+          [replacing
+              (b with b if c)
+              (c with b)]):
+          we infer:
+              
+          yes a if b if (a if (b if c)) (=11).

@@ -1,0 +1,8 @@
+we have:
+          (1=) yes a if b if a
+          
+          from which via (8 [replacing
+              (d with a)]):
+          we infer:
+          
+          yes a if a if b (=26).

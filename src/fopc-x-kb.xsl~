@@ -1,0 +1,7 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                version="3.0">
+
+  <!-- pm-x-kb:  given XML representation of Frege's Begriffsschrift
+       as it comes from ixml parser, generate conventional FOPC. -->
+       
+</xsl:stylesheet>

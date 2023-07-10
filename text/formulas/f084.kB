@@ -1,0 +1,17 @@
+we have:
+          (81=)
+          yes F(y) if follows-in-seq(x, y, f, gamma, delta)
+                   if inherited(F, f, delta, alpha, 1)
+                   if F(x)
+          
+          from which via (8 [replacing
+              (a with F(y) if follows-in-seq(x, y, f, gamma, beta))
+              (b with inherited(F, f, delta, alpha, 1))
+              (d with F(x))
+          ]):
+          we infer:
+          
+          yes F(y)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if F(x)
+              if inherited(F, f, delta, alpha, 1) (=84).

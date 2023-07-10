@@ -1,0 +1,34 @@
+<formula>
+  <maybe>
+    <leaf>
+      <is-inherited>
+        <property>
+          <conditional>
+            <consequent><leaf>
+              <follows-or-self>
+                <var>m</var>
+                <var>α</var>
+                <function><var>f</var></function>
+                <dummy-var>γ</dummy-var>
+                <dummy-var>β</dummy-var>
+              </follows-or-self>
+            </leaf></consequent>
+            <antecedent><not><leaf>
+              <follows>
+                <var>α</var>
+                <var>m</var>
+                <function><var>f</var></function>
+                <dummy-var>γ</dummy-var>
+                <dummy-var>β</dummy-var>
+              </follows>
+            </leaf></not></antecedent>
+          </conditional>
+        </property>
+        <function><var>f</var></function>
+        <dummy-var>δ</dummy-var>
+        <dummy-var>α</dummy-var>
+        <order-argument>1</order-argument>
+      </is-inherited>
+    </leaf>
+  </maybe>
+</formula>

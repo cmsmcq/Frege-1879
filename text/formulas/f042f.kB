@@ -1,0 +1,11 @@
+we have: (27=) a if a,
+
+          from which via (41 [replacing
+          (a with a if a)]): we infer:
+
+          yes not not (a if a) (=42),
+
+          from which via (40 [replacing
+          (b with not (a if a))]): we infer:
+
+          yes a if (a if not a) (=43).

@@ -1,0 +1,18 @@
+we have:
+          (58 [replacing
+              (f(Alpha) with f(Alpha) if g(Alpha) if h(Alpha))
+              (c with b)
+          ] =)
+          yes f(b) if g(b) if h(b)
+              if all fa satisfy (f(fa) if g(fa) if h(fa)),
+          
+          from which via (12 [replacing
+              (a with f(b))
+              (b with g(b))
+              (c with h(b))
+              (d with all fa satisfy (f(fa) if g(fa) if h(fa)))
+          ]):
+          we infer: |p52|
+          
+          yes f(b) if h(b) if g(b)
+              if all fa satisfy (f(fa) if g(fa) if h(fa)) (=60).

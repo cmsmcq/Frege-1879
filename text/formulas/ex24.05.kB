@@ -1,0 +1,4 @@
+all fd satisfy (
+            (all fa satisfy (F(fa) if f(fa, fd)))
+          if F(fd)
+          )

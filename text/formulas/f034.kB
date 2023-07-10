@@ -1,0 +1,9 @@
+we have: (33 =)
+          yes b if not a if (a if not b),
+
+          from which via (5 [replacing
+          (a with b if not a)
+          (b with a if not b)]):
+
+          we infer:
+          yes b if not a if c if (a if not b if c) (=34).

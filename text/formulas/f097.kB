@@ -1,0 +1,19 @@
+we have:
+          (96 [replacing
+              (z with fa)
+              (y with fd)
+          ] =)
+          yes all fd satisfy 
+              (all fa satisfy
+              (follows-in-seq(x, fa, f, gamma, beta)
+              if f(fd, fa))
+              if follows-in-seq(x, fd, f, gamma, beta))
+          
+          from which via (75 [replacing
+              (F(Gamma) with follows-in-seq(x, Gamma, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes inherited(follows-in-seq(x, alpha, f, gamma, beta),
+                        f, 
+                        delta, alpha, 1) (=97).

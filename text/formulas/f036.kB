@@ -1,0 +1,8 @@
+we have:
+          (1 [replacing (b with not b)] =)
+          yes a if not b if a,
+
+          from which via (34 [replacing (c with a)]):
+
+          we infer:
+          yes b if not a if a (=36).

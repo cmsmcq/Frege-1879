@@ -1,0 +1,1 @@
+<formula><maybe><conditional><consequent><conditional><consequent><not><leaf><var>Α</var></leaf></not></consequent><antecedent><leaf><var>Β</var></leaf></antecedent></conditional></consequent><antecedent><leaf><var>Γ</var></leaf></antecedent></conditional></maybe></formula>

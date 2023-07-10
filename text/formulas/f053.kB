@@ -1,0 +1,11 @@
+we have:
+          (52=)
+          yes f(d) if f(c) if (c EQUIV d),
+          
+          from which via (8 [replacing
+              (a with f(d))
+              (b with f(c))
+              (d with (c EQUIV d))]):
+          we infer:
+          
+          yes f(d) if (c EQUIV d) if f(c) (=53).

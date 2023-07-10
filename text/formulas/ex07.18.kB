@@ -1,0 +1,1 @@
+not (not (Alpha if not Beta) if (not Alpha if Beta))

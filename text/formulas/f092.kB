@@ -1,0 +1,14 @@
+we have:
+          (91=)
+          yes follows-in-seq(x, y, f, gamma, beta) if f(x, y)
+          
+          from which via (53 [replacing
+              (f(Alpha) with follows-in-seq(Alpha, y, f, gamma, beta))
+              (c with x)
+              (d with z)
+          ]):
+          we infer:
+          
+          yes follows-in-seq(z, y, f, gamma, beta)
+              if f(x, y)
+              if (x EQUIV z) (=92).

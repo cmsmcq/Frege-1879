@@ -1,0 +1,112 @@
+we have:
+          (115=)
+          yes (all fe satisfy
+              all fd satisfy
+              (all fa satisfy (fa equiv fe) if f(fd, fa))
+              if f(fd, fe))
+              
+              EQUIV
+
+              unambiguous(f, delta, epsilon)
+          
+          from which via (68 [replacing
+              (f(Gamma) with all fd satisfy
+                             (all fa satisfy (fa equiv Gamma) if f(fd, fa))
+                             if f(fd, Gamma))
+              (b with unambiguous(f, delta, epsilon))
+              (c with x)
+              (fa with fe)
+          ]):
+          we infer:
+          
+          yes all fd satisfy
+          (all fa satisfy ((fa equiv x) if f(fd, fa))
+          if f(fd, x))
+          if unambiguous(f, delta, epsilon) (=116),
+          
+          from which via (9 [replacing
+              (b with all fd satisfy 
+                          (all fa satisfy 
+                              ((fa equiv x) if f(fd, fa)) 
+                          if f(fd, x)))
+              (c with unambiguous(f, delta, epsilon))
+              (a with all fa satisfy ((fa equiv x) if f(y, fa))
+                      if f(y, x))
+          ]):
+          we infer: |p78|
+          
+          yes all fa satisfy ( (fa equiv x) if f(y, fa) )
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+              if (all fa satisfy ( (fa equiv x) if f(y, fa) )
+                  if f(y, x)
+                  if all fd satisfy 
+                     (all fa satisfy ( (fa equiv x) if f(fd, fa) )
+                     if f(fd, x))) (=117),
+          
+          from which via (58 [replacing
+              (fa with fd)
+              (f(Gamma) with all fa satisfy ( (fa equiv x) if f(Gamma, fa))
+                             if f(Gamma, x))
+              (c with y)
+          ])::
+          we infer: 
+          
+          yes all fa satisfy ( (fa equiv x) if f(y, fa) )
+              if f(y, x)
+              if unambiguous(f, delta, epsilon) (=118),
+          
+          from which via (19 [replacing
+              (b with all fa satisfy ( (fa equiv x) if f(y, fa)))
+              (c with f(y, x))
+              (d with unambiguous(f, delta, epsilon))
+              (a with (a equiv x) if f(y, a))
+          ]):
+          we infer: 
+          
+          yes (a equiv x)
+              if f(y, a)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+              if ((a equiv x)
+                  if f(y, a)
+                  if all fa satisfy ((fa equiv x) if f(y, fa))) (=119),
+          
+          from which via (58 [replacing
+              (f(Gamma) with (Gamma equiv x) if f(y, Gamma))
+              (c with a)
+          ])::
+          we infer: 
+          
+          yes (a equiv x)
+              if f(y, a)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon) (=120),
+          
+          from which via (20 [replacing
+              (b with (a equiv x))
+              (c with f(y, a))
+              (d with f(y, x))
+              (e with unambiguous(f, delta, epsilon))
+              (a with follows-or-same(x, a, f, gamma, beta))
+          ])::
+          we infer: |p79|
+          
+          yes follows-or-same(x, a, f, gamma, beta)
+              if f(y, a)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+              if (follows-or-same(x, a, f, gamma, beta)
+                  if (a equiv x)) (=121),
+          
+          from which via (112 [replacing
+              (z with a)
+          ])::
+          we infer: 
+          
+          yes all fa satisfy
+                  (follows-or-same(x, fa, f, gamma, beta)
+                  if f(y, fa))
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+          (=122).

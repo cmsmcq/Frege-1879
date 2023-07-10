@@ -1,0 +1,14 @@
+we have:
+          (46=)
+          yes a if (a if c) if (a if not c)
+          
+          from which via (21 [replacing
+              (a with a if (a if c))
+              (b with a)
+              (d with not c)
+              (c with b)]):
+          we infer:
+          
+          yes a if (a if c)
+                if (a if b)
+                if (b if not c) (=47).

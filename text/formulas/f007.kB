@@ -1,0 +1,8 @@
+we have: (5=) yes a if c if (b if c) if (a if b),
+            from which via (6 [
+            replacing
+            (a with a if c)
+            (b with b if c)
+            (c with a if b)
+            ]): we infer:
+            yes a if c if d if (b if c if d) if (a if b) (=7).

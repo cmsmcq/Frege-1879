@@ -1,0 +1,57 @@
+we have:
+          (129 [replacing
+              (x with fa)
+              (y with fd)
+          ] =)
+          yes all fd satisfy
+                  (all fa satisfy
+                      (follows-or-same(m, fa, f, gamma, beta)
+                      if not follows-in-seq(fa, m, f, gamma, beta)
+                      if f(fd, fa))
+                  if (follows-or-same(m, fd, f, gamma, beta)
+                      if not follows-in-seq(fd, m, f, gamma, beta)))
+              if unambiguous(f, delta, epsilon)
+          
+          from which via (9 [replacing
+              (b with all fd satisfy 
+                      (all fa satisfy 
+                      (follows-or-same(m, fa, f, gamma, beta)
+                      if not follows-in-seq(fa, m, f, gamma, beta))
+                      if (follows-or-same(m, fd, f, gamma, beta)
+                          if not follows-in-seq(fd, m, f, gamma, beta))))
+              (c with unambiguous(f, delta, epsilon))
+              (a with inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                                 if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                                 f, 
+                                 delta, alpha, 1))
+          ]):
+          we infer:
+          
+          yes inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                          if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                          f, 
+                          delta, alpha, 1)
+          if unambiguous(f, delta, epsilon)
+          if (inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                          if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                          f, 
+                          delta, alpha, 1)
+              if all fd satisfy 
+                  (all fa satisfy 
+                      (follows-or-same(m, fa, f, gamma, beta)
+                      if not follows-in-seq(fa, m, f, gamma, beta)
+                      if f(fd, fa))
+                  if (follows-or-same(m, fd, f, gamma, beta)
+                      if not follows-in-seq(fd, m, f, gamma, beta)))) (=130),
+          
+          from which via (75 [replacing
+              (F(Gamma) with follows-or-same(m, Gamma, f, gamma, beta)
+                             if not follows-in-seq(Gamma, m, f, gamma, beta))
+          ])::
+          we infer: |p85|
+          
+          yes inherited( (follows-or-same(m, alpha, f, gamma, beta)
+                          if not follows-in-seq(alpha, m, f, gamma, beta)), 
+                          f, 
+                          delta, alpha, 1)
+              if unambiguous(f, delta, epsilon) (=131).

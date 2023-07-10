@@ -1,0 +1,16 @@
+we have:
+          (1=) yes a
+                   if c 
+                   if (b if c)
+                   if (a if b if c)
+                   if (a if b)
+                   if (a if c if (b if c) if (a if b if c)),
+          and: 
+          (2=) yes a if c if (b if c) if (a if b if c),
+          from which we infer:
+          
+          yes a
+              if c
+              if (b if c)
+              if (a if b if c)
+              if (a if b) (=3).

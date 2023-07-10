@@ -1,0 +1,1 @@
+<formula n="1"><yes><conditional><consequent><conditional><consequent><leaf><var>a</var></leaf></consequent><antecedent><leaf><var>b</var></leaf></antecedent></conditional></consequent><antecedent><leaf><var>a</var></leaf></antecedent></conditional></yes></formula>

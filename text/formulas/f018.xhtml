@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:kb="http://blackmesatech.com/nss/2023/kb"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xh="http://www.w3.org/1999/xhtml"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <head>
+      <title>Inference in concept notation</title>
+      <style type="text/css">
+              div.inference { display: table; width: 100%;
+                  text-align: center;
+              }
+
+              div.premise { display: table-row; }
+              div.premise-label { display: table-cell; width: 48%;
+                                  padding-left: 1em; padding-top: 1em; 
+                                  text-align: left; vertical-align: top; }
+              div.left-label { padding-left: 2.0em; }
+              div.premise-formula { display: table-cell; width: 4%;
+                                  padding-right: 1em; padding-top: 0em; 
+                                  text-align: right; vertical-align: top; }
+              div.premise-rhs { display: table-cell; width: 48%; }
+
+              div.inference-step { display: table-row; }
+              div.premise-ref { display: table-cell; width: 48%;
+                                text-align: left; padding-left: 2.5em; }
+              div.inference-line-wrap { display: table-cell; 
+                                        text-align: center; }
+              hr.inference-line {
+                  display: inline-block;
+                  width: 100%;
+                  vertical-align: sub;
+              }
+              hr.double {
+                  border-top: 5px double black;
+              }
+
+              div.conclusion { display: table-row; }
+              div.premise-subs { display: table-cell; width: 48%;
+                                  padding-left: 1em; padding-top: 0em; 
+                                  text-align: left; vertical-align: top; }
+              div.conclusion-formula { display: table-cell; width: 4%;
+                                  padding-right: 1em; padding-top: 0em; 
+                                  text-align: right; vertical-align: top; }
+              div.conclusion-label { display: table-cell; width: 48%; 
+                                  padding-right: 1em; padding-bottom: 2em;
+                                  text-align: right; vertical-align: bottom; }
+              
+            </style>
+   </head>
+   <body>
+      <p>This document shows an inference 
+written out in Frege's ‘concept notation’.  The input was:</p>
+      <pre>we have: 
+(5=) yes a if b if c if (c if d) if (a if b if c),
+
+from which via (16
+[replacing: 
+    (c with d)
+    (d with c if d)
+    (e with a if b if c)
+]): we infer:
+
+yes a if d if b if (c if d) if (a if b if c) (=18)</pre>
+      <hr/>
+      <div class="inference">
+         <div class="premise">
+            <div class="premise-label">
+               <div class="left-label">5</div>
+               <img src="f018_st01.svg"
+                    alt="[replacing: (a with a if b) (b with c) (c with d) ]"/>
+            </div>
+            <div class="premise-formula">
+               <img src="f018_01.svg"
+                    alt="(5=) yes a if b if c if (c if d) if (a if b if c)"/>
+            </div>
+         </div>
+         <div class="inference-step">
+            <div class="premise-ref">
+               <div class="premise-reference">(<span class="f-num">16</span>): </div>
+            </div>
+            <div class="inference-line-wrap">
+               <hr class="inference-line"/>
+            </div>
+         </div>
+         <div class="conclusion">
+            <div class="premise-subs">
+               <img src="f018_st02.svg"
+                    alt="[replacing: (c with d) (d with c if d) (e with a if b if c) ]"/>
+            </div>
+            <div class="conclusion-formula">
+               <img src="f018_02.svg"
+                    alt="yes a if d if b if (c if d) if (a if b if c) (=18)"/>
+            </div>
+            <div class="conclusion-label">
+               <div class="right-label">(18.</div>
+            </div>
+         </div>
+      </div>
+      <hr/>
+      <p>End of demo.</p>
+      <p>Generated 2023-04-27T06:16:04.361034-06:00 by svg-x-kb.xsl.</p>
+   </body>
+</html>

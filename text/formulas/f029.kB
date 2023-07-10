@@ -1,0 +1,10 @@
+we have:
+          (28=)
+          yes not b if not a if (a if b),
+          
+          from which via (5 [replacing
+              (a with not b if not a)
+              (b with a if b)]):
+          we infer:
+          
+          yes not b if not a if c if (a if b if c) (=29).

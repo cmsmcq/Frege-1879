@@ -1,0 +1,7 @@
+let us denote:
+          (z EQUIV x)
+          if not follows-in-seq(x, z, f, gamma, beta)
+
+          with the expression:
+
+          follows-or-same(x, z, f, gamma, beta) (=99).

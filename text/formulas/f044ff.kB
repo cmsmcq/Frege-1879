@@ -1,0 +1,23 @@
+we have: (43=)
+          yes a if (a if not a)
+
+          from which via (21 [replacing
+          (b with a)
+          (d with not a)]): we infer:
+
+          yes a if (a if c) if (c if not a) (=44),
+
+          from which via (5 [replacing
+          (a with a if (a if c))
+          (b with c if not a)
+          (c with a if not c)]): we infer:
+
+          yes a if (a if c)
+                if (a if not c)
+                if (c if not a if (a if not c)) (=45)
+
+          from which via (33 [replacing (b with c)]):
+          we infer: |p48|
+
+          yes a if (a if c)
+                if (a if not c) (=46).

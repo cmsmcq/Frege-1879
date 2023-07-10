@@ -1,0 +1,39 @@
+we have:
+          (122 [replacing
+              (a with fa)
+          ] =)
+          yes all fa satisfy
+                  (follows-or-same(x, fa, f, gamma, beta)
+                  if f(y, fa))
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+          
+          
+          from which via (19 [replacing
+              (b with all fa satisfy 
+                          (follows-or-same(x, fa, f, gamma, beta) 
+                          if f(y, fa)))
+              (c with f(y, x))
+              (d with unambiguous(f, delta, epsilon))
+              (a with follows-or-same(x, m, f, gamma, beta)
+                      if follows-in-seq(y, m, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes follows-or-same(x, m, f, gamma, beta)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+              if (follows-or-same(x, m, f, gamma, beta)
+                  if follows-in-seq(y, m, f, gamma, beta)
+                  if all fa satisfy
+                          (follows-or-same(x, fa, f, gamma, beta)
+                          if f(y, fa))) (=123),
+          
+          from which via (110):
+          we infer: |p80|
+          
+          yes follows-or-same(x, m, f, gamma, beta)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon) (=124).

@@ -1,0 +1,19 @@
+we have:
+          (64 [replacing
+              (y with x)
+          ] =)
+          yes f(x) if h(x)
+                   if all fa satisfy (f(fa) if g(fa))
+                   if (g(x) if h(x)),
+          
+          from which via (61 [replacing
+              (a with f(x) if h(x) if all fa satisfy (f(fa) if g(fa)))
+              (f(Alpha) with g(Alpha) if h(Alpha))
+              (c with x)
+          ]):
+          we infer:
+          
+          yes f(x) if h(x)
+                   if all fa satisfy (f(fa) if g(fa))
+                   if all fa satisfy (g(fa) if h(fa))
+          (=65).

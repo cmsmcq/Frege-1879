@@ -1,0 +1,10 @@
+we have:
+          (26 [replacing
+              (b with a if b if a)
+              (b with c)] =)
+          yes a if a if (a if b if a)
+          
+          from which via (1)::
+          we infer:
+          
+          yes a if a (=27).

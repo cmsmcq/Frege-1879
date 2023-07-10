@@ -1,0 +1,6 @@
+we have: (5 [replacing (c with d)] =)
+            yes a if b if (b if d) if (a if b),
+            from which via (5 [replacing
+            (a with a if d if (b if d))
+            (b with a if b)]): we infer:
+            yes a if d if (b if d) if c if (a if b if c) (=6).

@@ -1,0 +1,97 @@
+/* local styling for Frege 1879 */
+
+.formula {
+    color: #22AA88;
+    font-family: Roboto Condensed,
+                 Deja Vu Sans,
+                 Optima,
+                 Helvetica,
+                 sans-serif, sans;
+}
+
+div.p.nonfirst-p {
+    text-indent: 2em;
+}
+
+table {
+    width: 100%;
+}
+td.grphead {
+    text-align: center;
+    font-size: large;
+    padding-top: 1em;
+}
+
+td {
+    padding-bottom: 0.5em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    min-width: 2.5em;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+
+span.pb {
+    color: blue;
+}
+span.pagenum {
+    font-variant-position: super;
+    font-size: small;
+}
+
+.spaced {
+    letter-spacing: 0.4em;
+}
+
+img.block {
+    display: block;
+    margin: auto;
+}
+img.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* inference ... */
+              div.inference { display: table; width: 100%;
+                  text-align: center;
+              }
+
+              div.premise { display: table-row; }
+              div.premise-label { display: table-cell; width: 48%;
+                                  padding-left: 1em; padding-top: 1em; 
+                                  text-align: left; vertical-align: top; }
+              div.left-label { padding-left: 2.0em; }
+              div.premise-formula { display: table-cell; width: 4%;
+                                  padding-right: 1em; padding-top: 0em; 
+                                  text-align: right; vertical-align: top; }
+              div.premise-rhs { display: table-cell; width: 48%; }
+
+              div.inference-step { display: table-row; }
+              div.premise-ref { display: table-cell; width: 48%;
+                                text-align: left; padding-left: 2.5em; }
+              div.inference-line-wrap { display: table-cell; 
+                                        text-align: center; }
+              hr.inference-line {
+                  display: inline-block;
+                  width: 100%;
+                  vertical-align: sub;
+              }
+              hr.double {
+                  border-top: 5px double black;
+              }
+
+              div.conclusion { display: table-row; }
+              div.premise-subs { display: table-cell; width: 48%;
+                                  padding-left: 1em; padding-top: 0em; 
+                                  text-align: left; vertical-align: top; }
+              div.conclusion-formula { display: table-cell; width: 4%;
+                                  padding-right: 1em; padding-top: 0em; 
+                                  text-align: right; vertical-align: top; }
+              div.conclusion-label { display: table-cell; width: 48%; 
+                                  padding-right: 1em; padding-bottom: 2em;
+                                  text-align: right; vertical-align: bottom; }

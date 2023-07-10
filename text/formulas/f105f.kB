@@ -1,0 +1,27 @@
+we have:
+          (99=)
+          yes ((z EQUIV x)
+              if not follows-in-seq(x, z, f, gamma, beta))
+          EQUIV
+          follows-or-same(x, z, f, gamma, beta)
+          
+          from which via (52 [replacing
+              (f(Gamma) with Gamma)
+              (c with (z equiv x) if not follows-in-seq(x, z, f, gamma, beta))
+              (d with follows-or-same(x, z, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes follows-or-same(x, z, f, gamma, beta)
+              if ((z equiv x)
+              if not follows-in-seq(x, z, f, gamma, beta)) (=105),
+          
+          from which via (37 [replacing
+              (a with follows-or-same(x, z, f, gamma, beta))
+              (b with z equiv x)
+              (c with follows-in-seq(x, z, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes follows-or-same(x, z, f, gamma, beta)
+          if follows-in-seq(x, z, f, gamma, beta) (=106).

@@ -1,0 +1,4 @@
+all fd satisfy
+            ((all fa satisfy
+              (Sigma(fa) if Lambda(fd, fa)))
+            if Sigma(fd))

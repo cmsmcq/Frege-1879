@@ -1,0 +1,56 @@
+we have:
+          (126=)
+          yes follows-or-same(m, x, f, gamma, beta)
+              if not follows-in-seq(x, m, f, gamma, beta)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+          
+          from which via (12 [replacing
+              (a with follows-or-same(m, x, f, gamma, beta)
+                      if not follows-in-seq(x, m, f, gamma, beta))
+              (b with follows-in-seq(y, m, gamma, beta))
+              (c with f(y, x))
+              (b with unambiguous(f, delta, epsilon))
+          ]):
+          we infer:
+          
+          yes follows-or-same(m, x, f, gamma, beta)
+              if not follows-in-seq(x, m, f, gamma, beta)
+              if f(y, x)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if unambiguous(f, delta, epsilon) (=127),
+          
+          from which via (51 [replacing
+              (a with follows-or-same(m, x, f, gamma, beta)
+                      if not follows-in-seq(x, m, f, gamma, beta)
+                      if f(y, x))
+              (c with follows-in-seq(y, m, f, gamma, beta))
+              (d with unambiguous(f, delta, epsilon))
+              (b with follows-or-same(m, y, f, gamma, beta))
+          ]):
+          we infer: |p83|
+          
+          yes follows-or-same(m, x, f, gamma, beta)
+              if not follows-in-seq(x, m, f, gamma, beta)
+              if f(y, x)
+              if (follows-or-same(m, y, f, gamma, beta)
+                  if not follows-in-seq(y, m, f, gamma, beta))
+              if unambiguous(f, delta, epsilon)
+              if (follows-or-same(m, x, f, gamma, beta)
+                  if not follows-in-seq(x, m, f, gamma, beta)
+                  if f(y, x)
+                  if follows-or-same(m, y, f, gamma, beta)) (=128),
+          
+          from which via (111 [replacing
+              (z with m)
+              (v with x)
+          ])::
+          we infer:
+          
+          yes follows-or-same(m, x, f, gamma, beta)
+              if not follows-in-seq(x, m, f, gamma, beta)
+              if f(y, x)
+              if (follows-or-same(m, y, f, gamma, beta)
+                  if not follows-in-seq(y, m, f, gamma, beta))
+              if unambiguous(f, delta, epsilon) (=129).

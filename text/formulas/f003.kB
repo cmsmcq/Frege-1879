@@ -1,0 +1,12 @@
+we have:
+          (2=) yes a if c if (b if c)
+                 if (a if b if c),
+          from which
+          via (1 [replacing
+          (a with a if c if (b if c) if (a if b if c))
+          (b with a if b)]):
+          we infer:  yes
+          a if c
+            if (b if c)
+            if (a if b if c)
+            if (a if b) (=3).

@@ -1,0 +1,9 @@
+we have:
+          (9=) yes a if c if (a if b) if (b if c),
+          from which via (18 [replacing
+          (a with a if c)
+          (b with a if b)
+          (c with b if c)]):
+          we infer:
+          yes a if c if d if (a if b)
+          if (b if c if c) (=19).

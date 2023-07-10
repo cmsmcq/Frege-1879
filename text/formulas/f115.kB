@@ -1,0 +1,9 @@
+let us denote:
+          all fe satisfy
+          all fd satisfy
+          (all fa satisfy (fa equiv fe) if f(fd, fa))
+          if f(fd, fe)
+
+          with the expression:
+
+          unambiguous(f, delta, epsilon) (=115).

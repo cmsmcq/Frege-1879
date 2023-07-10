@@ -1,0 +1,37 @@
+we have:
+          (124=)
+          yes follows-or-same(x, m, f, gamma, beta)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+          
+          from which via (20 [replacing
+              (b with follows-or-same(x, m, f, gamma, beta))
+              (c with follows-in-seq(y, m, f, gamma, beta))
+              (d with f(y, x))
+              (e with unambiguous(f, delta, epsilon))
+              (a with follows-or-same(m, x, f, gamma, beta)
+                      if not follows-in-seq(x, m, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes follows-or-same(m, x, f, gamma, beta)
+              if not follows-in-seq(x, m, f, gamma, beta)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon)
+              if (follows-or-same(m, x, f, gamma, beta)
+                  if not follows-in-seq(x, m, f, gamma, beta)
+                  if follows-or-same(x, m, f, gamma, beta)) (=125),
+          
+          from which via (114 [replacing
+              (x with m)
+              (z with x)
+          ])::
+          we infer:
+          
+          yes follows-or-same(m, x, f, gamma, beta)
+              if not follows-in-seq(x, m, f, gamma, beta)
+              if follows-in-seq(y, m, f, gamma, beta)
+              if f(y, x)
+              if unambiguous(f, delta, epsilon) (=126).

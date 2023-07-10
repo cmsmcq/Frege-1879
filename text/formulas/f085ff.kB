@@ -1,0 +1,50 @@
+we have:
+          (77=)
+          yes F(y)
+              if all fa satisfy (F(fa) if f(x, fa))
+              if inherited(F, f, delta, alpha, 1)
+              if follows-in-seq(x, y, f, gamma, beta)
+          
+          from which via (12 [replacing
+              (a with F(y))
+              (b with all fa satisfy (F(fa) if f(x, fa)))
+              (c with inherited(F, f, delta, alpha, 1))
+              (d with follows-in-seq(x, y, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes F(y)
+          if inherited(F, f, delta, alpha, 1)
+          if all fa satisfy (F(fa) if f(x, fa))
+          if follows-in-seq(x, y, f, gamma, beta) (=85),
+          
+          from which via (19 [replacing
+              (b with F(y) if inherited(F, f, delta, alpha, 1))
+              (c with all fa satisfy (F(fa) if f(x, fa)))
+              (d with follows-in-seq(x, y, f, gamma, beta))
+              (e with F(z) if f(y, z) if inherited(F, f, delta, alpha, 1))
+          ]):
+          we infer:
+          
+          yes F(z)
+          if f(y, z)
+          if inherited(F, f, delta, alpha, 1)
+          if all fa satisfy (F(fa) if f(x, fa))
+          if follows-in-seq(x, y, f, gamma, beta)
+          if (F(z)
+              if f(y, z)
+              if inherited(F, f, delta, alpha, 1)
+              if (F(y) if inherited(F, f, delta, alpha, 1))
+              ) (=86),
+          
+          from which via (73 [replacing
+              (y with z)
+              (x with y)
+          ]):
+          we infer:
+          
+          yes F(z)
+              if f(y, z)
+              if inherited(F, f, delta, alpha, 1)
+              if all fa satisfy (F(fa) if f(x, fa))
+              if follows-in-seq(x, y, f, gamma, beta) (=87).

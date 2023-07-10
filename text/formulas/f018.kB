@@ -1,0 +1,17 @@
+we have:
+          (5 [replacing
+          (a with a if b)
+          (b with c)
+          (c with d)] =)
+          yes a if b if c if (c if d)
+          if (a if b if c),
+
+          from which via (16 [replacing
+          (c with d)
+          (d with c if d)
+          (e with a if b if c)]):
+          we infer:
+
+          yes a if d if b
+          if (c if d)
+          if (a if b if c) (=18).

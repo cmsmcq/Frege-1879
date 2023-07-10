@@ -1,0 +1,10 @@
+let us denote:
+          all fd satisfy
+              ((all fa satisfy 
+                    (F(fa) if f(fd, fa)))
+               if
+               F(fd))
+
+          with the expression:
+
+          inherited(F, f, delta, alpha, 1) (=69).

@@ -1,0 +1,21 @@
+we have:
+          (1 [replacing
+              (a with a if c)] =)
+          yes a if c if b if (a if c)
+          
+          from which via (12 [replacing
+              (b with c)
+              (c with b)
+              (d with a if c)]):
+          we infer:
+          
+          yes a if b if c if (a if c) (=24)
+
+          from which via (5 [replacing
+              (a with a if b if c)
+              (b with a if c)
+              (c with d)]):
+          we infer:
+
+          yes a if b if c if d
+          if (a if c if d) (=25).

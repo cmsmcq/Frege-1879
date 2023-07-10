@@ -1,0 +1,13 @@
+we have: (47=)
+          yes a if (a if c)
+                if (a if b)
+                if (b if not c)
+          
+          from which via (23 [replacing
+              (b with a if c)
+              (c with a if b)
+              (d with b if not c)]):
+          we infer: |p49|
+          
+          yes a if d if (a if c) if (a if b)
+                if (b if not c if d) (=48).

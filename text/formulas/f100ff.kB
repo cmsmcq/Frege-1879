@@ -1,0 +1,51 @@
+we have:
+          (99=)
+          yes ((z EQUIV x)
+              if not follows-in-seq(x, z, f, gamma, beta))
+
+          equiv
+
+          follows-or-same(x, z, f, gamma, beta)
+          
+          from which via (57 [replacing
+              (f(Gamma) with Gamma)
+              (c with (z equiv x) if not follows-in-seq(x, z, f, gamma, beta))
+              (d with follows-or-same(x, z, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes (z equiv x)
+          if not follows-in-seq(x, z, f, gamma, beta)
+          if follows-or-same(x, z, f, gamma, beta) (=100),
+          
+          from which via (48 [replacing
+              (b with (z equiv x))
+              (c with follows-in-seq(x, z, f, gamma, beta))
+              (d with follows-or-same(x, z, f, gamma, beta))
+              (a with follows-in-seq(x, v, f, gamma, beta) if f(z, v))
+          ]):
+          we infer:
+          
+          yes follows-in-seq(x, v, f, gamma, beta)
+              if f(z, v)
+              if follows-or-same(x, z, f, gamma, beta)
+              if (follows-in-seq(x, v, f, gamma, beta) 
+                 if f(z, v)
+                 if follows-in-seq(x, z, f, gamma, beta))
+              if (follows-in-seq(x, v, f, gamma, beta) 
+                 if f(z, v)
+                 if (z equiv x)) (=101),
+          
+          from which via (96 [replacing
+              (y with z)
+              (z with v)
+          ], 92 [replacing
+              (x with z)
+              (z with w)
+              (y with v)
+          ])::
+          we infer:
+          
+          yes follows-in-seq(x, v, f, gamma, beta)
+              if f(z, v)
+              if follows-or-same(x, z, f, gamma, beta) (=102).

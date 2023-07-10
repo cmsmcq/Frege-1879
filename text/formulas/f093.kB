@@ -1,0 +1,23 @@
+we have: 
+          (60 [replacing
+              (fa with FF)
+              (f(Gamma) with Gamma(y))
+              (g(Gamma) with inherited(Gamma, f, delta, alpha, 1))
+              (h(Gamma) with all fa satisfy (Gamma(fa) if f(x, fa)))
+              (b with FF)
+          ] =)
+          yes a if b if c
+          
+          from which via (90 [replacing
+              (c with all FF satisfy 
+                             (FF(y) 
+                             if inherited(Gamma, f, delta, alpha, 1)
+                             if all fa satisfy (FF(fa) if f(x, fa))))
+          ]):
+          we infer: |p70|
+          
+          yes follows-in-seq(x, y, f, gamma, beta)
+              if all FF satisfy
+              (FF(y)
+              if inherited(FF, f, delta, alpha, 1)
+              if all fa satisfy (FF(fa) if f(x, fa))) (=93).

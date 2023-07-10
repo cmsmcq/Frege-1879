@@ -1,0 +1,20 @@
+we have:
+          (18 [replacing
+              (a with a if b)
+              (b with c)
+              (c with d)
+              (d with e)] =)
+          yes a if b if e if c
+              if (d if e)
+              if (a if b if c if d)
+
+          from which via (22 [replacing
+               (c with e)
+               (d with c)
+               (e with d if e)
+               (f with a if b if c if d)]):
+          we infer: |p 42|
+
+          yes a if e if b if c
+              if (d if e)
+              if (a if b if c if d) (=23).

@@ -1,0 +1,8 @@
+we have:
+          (36 [replacing (a with c)] =)
+          yes b if not c if c,
+
+          from which via (9 [replacing (b with b if not c)]):
+
+          we infer:
+          yes a if c if (a if b if not c) (=37).

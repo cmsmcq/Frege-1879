@@ -1,0 +1,28 @@
+we have:
+          (58=)
+          yes f(c) if all fa satisfy f(fa),
+          
+          from which via (7 [replacing
+              (a with f(c))
+              (b with all fa satisfy f(fa))
+              (c with b)
+              (d with [(all fa satisfy f(fa)) EQUIV b])
+          ]):
+          we infer:
+          
+          yes f(c) if b
+                   if [(all fa satisfy f(fa)) EQUIV b]
+                   if (all fa satisfy f(fa)
+                       if b
+                       if [(all fa satisfy f(fa)) EQUIV b]) (=67),
+
+          from which via (57 [replacing
+              (f(Alpha) with Alpha)
+              (c with all fa satisfy f(fa))
+              (d with b)
+          ])::
+          we infer:
+          
+          yes f(c) if b
+                   if b
+                   if [(all fa satisfy f(fa)) EQUIV b] (=68).

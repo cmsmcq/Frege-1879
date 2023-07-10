@@ -1,0 +1,16 @@
+we have:
+          (108=)
+          yes follows-or-same(z, v, f, gamma, beta)
+          
+          from which via (25 [replacing
+              (a with follows-or-same(z, v, f, gamma, beta))
+              (c with f(y, v))
+              (d with follows-or-same(z, y, f, gamma, beta))
+              (b with not follows-in-seq(v, z, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes follows-or-same(z, v, f, gamma, beta)
+              if not follows-in-seq(v, z, f, gamma, beta)
+              if f(y, v)
+              if follows-or-same(z, y, f, gamma, beta) (=111).

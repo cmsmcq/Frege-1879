@@ -1,0 +1,37 @@
+we have:
+          (76=) yes (all FF satisfy
+          (FF(y) if all fa satisfy (FF(fa) if f(x, fa))
+                 if inherited(FF, f, delta, alpha, 1)))
+
+          EQUIV
+
+          follows-in-seq(x, y, f, gamma, beta)
+          
+          from which via (52 [replacing
+              (f(Gamma) with Gamma)
+              (c with all FF satisfy
+                 (FF(y) if all fa satisfy (FF(fa) if f(x, fa))
+                 if inherited(FF, f, delta, alpha, 1)))
+              (d with follows-in-seq(x, y, f, gamma, beta))
+          ]):
+          we infer:
+          
+          yes follows-in-seq(x, y, f, gamma, beta)
+          if all FF satisfy
+                 (FF(y) if all fa satisfy (FF(fa) if f(x, fa))
+                 if inherited(FF, f, delta, alpha, 1)) (=89)
+
+          from which via (5 [replacing
+              (a with follows-in-seq(x, y, f, gamma, beta))
+              (b with all FF satisfy
+                 (FF(y) if all fa satisfy (FF(fa) if f(x, fa))
+                 if inherited(FF, f, delta, alpha, 1)))
+          ]):
+          we infer:
+
+          yes follows-in-seq(x, y, f, gamma, beta)
+          if c
+          if (all FF satisfy
+                 (FF(y) if all fa satisfy (FF(fa) if f(x, fa))
+                 if inherited(FF, f, delta, alpha, 1))
+             if c) (=90).

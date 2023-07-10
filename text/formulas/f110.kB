@@ -1,0 +1,20 @@
+we have:
+          (109=)
+          yes inherited(follows-or-same(x, alpha, f, gamma, beta),
+                        f, 
+                        delta,
+                        alpha,
+                        1)
+          
+          from which via (78 [replacing
+              (F(Gamma) with follows-or-same(x, Gamma, f, gamma, beta))
+              (x with y)
+              (y with m)
+          ]):
+          we infer:
+          
+          yes follows-or-same(x, m, f, gamma, beta)
+          if follows-in-seq(y, m, f, gamma, beta)
+          if all fa satisfy (follows-or-same(fx, fa, f, gamma, beta)
+                             if f(y, fa))
+          (=110).

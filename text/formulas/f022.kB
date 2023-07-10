@@ -1,0 +1,12 @@
+we have:
+          (16=) yes a if c if b if d if e
+          if (a if b if c if d if e)
+
+          from which via (5 [replacing
+          (a with a if c if b if d if e)
+          (b with a if b if c if d if e)
+          (c with f)]):
+
+          we infer:
+          yes a if c if b if d if e if f
+          if (a if b if c if d if e if f) (=22).

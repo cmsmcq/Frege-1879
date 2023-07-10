@@ -1,0 +1,19 @@
+we have:
+          (63 [replacing
+                 (f with FF)
+                 (x with y)
+                 (g(Gamma) withf(x, Gamma))
+                 (m with inherited(F, f, delta, alpha, 1))
+          ] =) yes all FF satisfy
+                       (FF(y) 
+                       if all fa satisfy (FF(fa) if f(x, fa))
+                       if inherited(FF, f, delta, alpha, 1))
+                   if f(x, y)
+          
+          from which via (90 [replacing
+              (c with f(x, y))
+          ]):
+          we infer: 
+
+          follows-in-seq(x, y, f, gamma, beta)
+          if f(x, y) (=91).

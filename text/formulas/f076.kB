@@ -1,0 +1,8 @@
+let us denote:
+          all FF satisfy
+          (FF(y) if all fa satisfy (FF(fa) if f(x, fa))
+                if inherited(FF, f, delta, alpha, 1))
+
+          with the expression:
+
+          follows-in-seq(x, y, f, gamma, beta) (=76).

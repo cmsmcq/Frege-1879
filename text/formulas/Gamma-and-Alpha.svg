@@ -1,0 +1,53 @@
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="82" height="58" viewBox="0,0 41,29">
+  <svg:desc>SVG rendering of non-Begriffsschrift notation for the 
+  expression:
+
+  Gamma and Alpha
+
+  SVG written by hand based on p05.2.svg</svg:desc>
+  <svg:style type="text/css">
+    line, path { 
+    stroke: black;
+    stroke-width: 0.5;
+    }
+    path { 
+    fill: none;
+    }
+    text { 
+    font-size: 10px;
+    }
+  </svg:style>
+  <svg:defs>
+    <svg:g id="conjunction-3">
+      <svg:title>Gamma and Alpha</svg:title>
+
+      <svg:g>
+        <svg:use xlink:href="#var-9" transform="translate(6, 0)"/>
+        <svg:use xlink:href="#var-6" transform="translate(6, 12)"/>
+        <svg:text transform="translate(0,12)
+                             scale(1 2.2)"
+                  >{</svg:text>
+        -->
+      </svg:g>
+    </svg:g>
+    <svg:g id="var-6">
+      <svg:title>Α</svg:title>
+      <?kb var-6 5 7 12 0?>
+      <svg:g>
+        <svg:text transform="translate(2, 3)" style="font-style: italic;">Α</svg:text>
+      </svg:g>
+    </svg:g>
+    <svg:g id="var-9">
+      <svg:title>Γ</svg:title>
+      <?kb var-9 5 7 12 0?>
+      <svg:g>
+        <svg:text transform="translate(2, 3)" style="font-style: italic;">Γ</svg:text>
+      </svg:g>
+    </svg:g>
+  </svg:defs>
+  <svg:g>
+    <svg:use xlink:href="#conjunction-3" transform="translate(5,10)"/>
+  </svg:g>
+</svg:svg>

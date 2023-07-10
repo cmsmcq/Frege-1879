@@ -1,0 +1,13 @@
+we have: (3=)
+          yes a if c if (b if c) if (a if b if c) if (a if b),
+          from which via (2 [
+          replacing (a with a if c if (b if c))
+          (b with a if b if c)
+          (c with a if b)
+          ]):
+          we infer:
+          yes a if c
+              if (b if c)
+              if (a if b)
+              if (a if b if c if (a if b))
+          (=4).

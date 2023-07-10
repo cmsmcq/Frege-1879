@@ -1,0 +1,1 @@
+<inference><premise><formula><yes><leaf><var>Β</var></leaf></yes></formula></premise><infstep><premise-ref-con><ref>X</ref></premise-ref-con><conclusion><formula><yes><leaf><var>Α</var></leaf></yes></formula></conclusion></infstep></inference>

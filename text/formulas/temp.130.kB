@@ -1,0 +1,4 @@
+inherited(follows-or-same(m, alpha, f, gamma, beta)
+                                 if not follows-in-seq(alpha, m, f, gamma, beta), 
+                                 f, 
+                                 delta, alpha, 1)

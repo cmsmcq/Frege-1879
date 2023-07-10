@@ -1,0 +1,23 @@
+we have:
+          (82 [replacing
+              (F(Gamma) with g(Gamma) if not h(Gamma))
+              (a with h(x))
+          ] =)
+          yes g(y) 
+              if not h(y)
+              if follows-in-seq(x, y, f, gamma, beta)
+              if h(x)
+              if inherited( g(alpha) if not h(alpha), f, delta, alpha, 1)
+              if (g(x) if not h(x) if h(x))
+          
+          from which via (36 [replacing
+              (b with g(x))
+              (a with h(x))
+          ])::
+          we infer:
+          
+          yes g(y)
+          if not h(y)
+          if follows-in-seq(x, y, f, gamma, beta)
+          if h(x)
+          if inherited(g(alpha) if not h(alpha), f, delta, alpha, 1) (=83).

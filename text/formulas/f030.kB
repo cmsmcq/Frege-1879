@@ -1,0 +1,12 @@
+we have:
+          (29=)
+          yes not b if not a if c if (a if b if c),
+          
+          from which via (10 [replacing
+              (a with not b if not a if c)
+              (b with a)
+              (d with b)
+              (e with c)]):
+          we infer:
+          
+          yes not b if not a if c if (a if c if b) (=30).
