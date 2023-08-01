@@ -17,8 +17,8 @@ The text has been transcribed and the formulas have been checked for
 grammatical correctness.  SVG equivalents for all formulas and
 inference chains in Parts I and II have been generated.
 
-For the moment, this repository is private; I plan to make it public
-before Balisage 2023.
+At the moment, no ebook has been generated.  If you are interested, watch
+this space.
 
 ## To do
 
